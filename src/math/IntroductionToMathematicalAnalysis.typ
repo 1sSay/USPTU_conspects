@@ -65,4 +65,37 @@
 
 Ну там чутка определение надо переписать
 
-== 
+== Бесконечность
+
+#def[#text(red)[*TODO*]]
+
+== Арифметические свойства пределов
+
+#def[$ f(x) -> a and g(x) -> b => f(x) plus.minus g(x) -> a plus.minus b $]
+#def[$ f(x) -> a and g(x) -> b => f(x) * g(x) -> a * b $]
+#def[$ f(x) -> a and g(x) -> b and b != 0 => f(x) / g(x) -> a / b $]
+
+== Бесконечно большая величина
+
+#def[$ forall E > 0 exists delta > 0 : forall x in D(f) : 0 < |x - a| < delta => |f(x)| > E $]
+
+== Бесконечно малая величина
+
+#def[$ forall epsilon > 0 exists delta > 0 : forall x in D(f) : 0 < |x - a| < delta => |f(x)| < epsilon$]
+
+Пусть $alpha$, $beta$ -- бесконечно малые при $x -> a$
+
+$ lim_(x->a)(alpha(x) + beta(x))= 0 $
+$ lim_(x->a)(f(x)alpha(x)) = 0, f(x) arrow.not infinity $
+$ lim_(x->a)f(x) != 0 => lim_(x->a) alpha(x) / f(x) = 0 $
+
+== Свойства пределов
+
+#def[$ lim_(x->a)(f(x) plus.minus g(x)) = lim_(x->a)f(x) plus.minus lim_(x->a)g(x) $]
+
+#def[$ lim_(x->a)(f(x) * g(x)) = lim_(x->a)f(x) * lim_(x->a)g(x) $]
+
+#def[$ lim_(x->a)(c * g(x)) = c * lim_(x->a)f(x) $]
+
+#def[$ lim_(x->a)(f(x) / g(x)) =  lim_(x->a)f(x) / (lim_(x->a)g(x)), lim_(x->a)g(x) != 0 $]
+
