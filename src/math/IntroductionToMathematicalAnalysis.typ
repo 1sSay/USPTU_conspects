@@ -97,5 +97,4 @@ $ lim_(x->a)f(x) != 0 => lim_(x->a) alpha(x) / f(x) = 0 $
 
 #def[$ lim_(x->a)(c * g(x)) = c * lim_(x->a)f(x) $]
 
-#def[$ lim_(x->a)(f(x) / g(x)) =  lim_(x->a)f(x) / (lim_(x->a)g(x)), lim_(x->a)g(x) != 0 $]
-
+#def[$ lim_(x->a)(f(x) / g(x)) =  frac(lim_(x->a)f(x), lim_(x->a)g(x)), lim_(x->a)g(x) != 0 $]
